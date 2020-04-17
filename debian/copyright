@@ -1,0 +1,11 @@
+Format: http://www.debian.org/doc/packaging-manuals/Copyright 1-2019 The Wazo Authors  (see the AUTHORS file)
+Upstream-Name: promise
+Source: https://github.com/syrusakbary/promise
+
+Files: *
+Copyright: 2019, Syrus Akbary
+License: MIT License
+
+Files: debian/*
+Copyright: 2019 The Wazo Authors  (see the AUTHORS file)
+License: GPL-3

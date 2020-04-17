@@ -1,0 +1,22 @@
+Source: wazo-python-rx-packaging
+Section: python
+Priority: optional
+Maintainer: Wazo Maintainers <dev+pkg@wazo.community>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python3-all,
+               python3-setuptools
+Standards-Version: 3.9.6
+X-Python3-Version: >= 3.7
+
+Package: python3-rx
+Architecture: all
+Depends: ${misc:Depends},
+         ${python3:Depends},
+Description: Reactive Extensions for Python
+ .
+ Reactive Extensions for Python (RxPY) is a set of libraries for composing
+ asynchronous and event-based programs using observable sequences and LINQ-style
+ query operators in Python. Using Rx, developers represent asynchronous data
+ streams with Observables, query asynchronous data streams using operators, and
+ parameterize concurrency in data/event streams using Schedulers.
